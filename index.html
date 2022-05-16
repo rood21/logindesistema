@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>form</title>
+</head>
+
+<body>
+  <div class="login-box">
+    <h2>Login</h2>
+    <form>
+      <div class="user-box">
+        <input type="text" id="email" value="">
+        <label>email</label>
+      </div>
+      <div class="user-box">
+        <input type="text" id="senha" value="">
+        <label>senha</label>
+      </div>
+
+      <a href="#" class="btn" onclick="mostraform()">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Enviar
+      </a>
+  </div>
+  </form>
+  <div class="container-form ">
+    <div class="seven columns">
+
+      <table>
+        <thead>
+          <tr>
+            <th>email</th>
+            <th>senha</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="tbody">
+          <tr class="itemDelet">
+            <td></td>
+            <td></td>
+            <td><button class="btn-js"></button></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
